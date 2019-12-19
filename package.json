@@ -1,0 +1,19 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "Paruošti komentarų formą su galimybe saugoti įrašus į tekstinį failą ir juos peržiūrėti.",
+    "main": "server.js",
+    "scripts": {
+        "server": "node server.js",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "concurrently": "^5.0.2"
+    }
+}
